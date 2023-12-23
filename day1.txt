@@ -1,0 +1,48 @@
+Rules to define an identifier
+	1. It can contain alphabets, digits, $ and _(underscore).
+	2. Should not start with digit
+	3. should not be a keyword
+	4. Case sensitive
+	5. Length may be anything
+operators
+	Arithmetic
+		+, -, *, /, %
+	Relational
+		>, >=. <. <=, ==, !=
+	Logical
+		&&, ||, !
+
+	Increment/decrement
+		++/--
+	Ternary or conditional
+		?:
+	syntax :
+		<expression>?<true>:<false>
+	Bitwise
+		& AND
+		| OR
+		^ XOR
+		~ NOT
+		<< Left shift
+		>> Right Shift
+		>>> Right shift with zero fill
+
+	Assignment
+		simple
+			=
+		compound or shorthand
+			+, -=, *=, /=, %=
+			&=, |=, ^=, >>=, <<=, >>>=
+	primitive
+		Integer types
+		byte		1
+		short		2
+		int		4
+		long		8
+		Float types
+		float		4
+		double		8
+
+		boolean		N/A
+
+		char		2
